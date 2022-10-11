@@ -2,3 +2,16 @@ $coloruno: #905E96;
 $colordos: #D58BDD;
 $colortres: #FF99D7;
 $colorcuatro: #FFD372;
+
+.aside {
+    margin-top: 5%;
+    background: yellow;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+    grid-template-rows: 100%;
+
+    div {
+        border: 1px solid red;
+    }
+}

@@ -30,7 +30,9 @@ $colorcuatro: #FFD372;
     transition: 0.3s;
 }
 
-.menu__item {   
+.menu__item { 
+    padding: 10px 0 10px 0; 
+    border: 1px solid $coloruno; 
     list-style: none;
     text-align: center;
 }
@@ -63,6 +65,7 @@ $colorcuatro: #FFD372;
     }
 
     .menu__item {
+        border: none;
         margin: 5px;
         padding: 0 10px 0 10px;
     }

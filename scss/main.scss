@@ -2,3 +2,23 @@ $coloruno: #905E96;
 $colordos: #D58BDD;
 $colortres: #FF99D7;
 $colorcuatro: #FFD372;
+
+.main {
+    padding-top: 10%;
+
+    h2 {
+        font-family: 'Alkalami', serif;
+        font-size: 60px;
+        line-height: 50px;
+        font-weight: 60px;
+        margin: 0 5% 0 5%;
+    }
+
+    p {
+        margin: 0 5% 0 5%;
+        font-weight: 60px;
+        font-family: 'Inter Tight', sans-serif;
+        line-height: 20px;
+        padding-top: 5%;
+    }
+}
