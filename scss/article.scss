@@ -1,0 +1,23 @@
+.article {
+    background: red;
+    font-size: 30px;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+    }
+
+    .article__dos {
+        width: 80%;
+        
+        background: yellow;
+        margin: auto;
+    }
+
+    .article__cuatro {
+        width: 80%;
+       
+        background: orange;
+        margin: auto;
+    }
+}

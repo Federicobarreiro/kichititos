@@ -15,7 +15,7 @@
 .menu {
   margin-left: -100%;
   background: #FF99D7;
-  width: 30%;
+  width: 100%;
   position: absolute;
   transition: 0.3s; }
 
@@ -33,7 +33,7 @@
 .mostrar {
   margin-left: 0; }
 
-@media (min-width: 1024px) {
+@media (min-width: 991px) {
   body {
     margin: 0 10% 0 10%; }
   .span {
@@ -50,7 +50,10 @@
     padding: 0 10px 0 10px; } }
 
 .main {
-  padding-top: 10%; }
+  background-image: url(/imagenes/bebe.jpg);
+  background-size: cover;
+  padding-top: 10%;
+  text-align: center; }
   .main h2 {
     font-family: 'Alkalami', serif;
     font-size: 60px;
@@ -66,13 +69,52 @@
 
 .aside {
   margin-top: 5%;
-  background: yellow;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
-  grid-template-rows: 100%; }
+  gap: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
   .aside div {
-    border: 1px solid red; }
+    height: 50px; }
+  .aside a {
+    color: grey;
+    text-decoration: none;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: x-large; }
+  .aside a:hover {
+    opacity: 30%; }
+
+@media (min-width: 991px) {
+  body {
+    margin: 0 10% 0 10%; }
+  .span {
+    display: none; }
+  .menu {
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    position: relative; }
+  .menu__item {
+    border: none;
+    margin: 5px;
+    padding: 0 10px 0 10px; } }
+
+.article {
+  background: red;
+  font-size: 30px;
+  text-align: center; }
+  .article a {
+    text-decoration: none; }
+  .article .article__dos {
+    width: 80%;
+    background: yellow;
+    margin: auto; }
+  .article .article__cuatro {
+    width: 80%;
+    background: orange;
+    margin: auto; }
 
 * {
   margin: 0;

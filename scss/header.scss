@@ -25,7 +25,7 @@ $colorcuatro: #FFD372;
 .menu {
     margin-left: -100%;
     background: $colortres;
-    width: 30%;
+    width: 100%;
     position: absolute;
     transition: 0.3s;
 }
@@ -47,7 +47,7 @@ $colorcuatro: #FFD372;
     margin-left: 0;
 }
 
-@media(min-width:1024px) {
+@media(min-width:991px) {
     body {
         margin: 0 10% 0 10%;
     }
