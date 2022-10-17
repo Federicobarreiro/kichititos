@@ -1,23 +1,34 @@
 .article {
-    background: red;
     font-size: 30px;
     text-align: center;
+    margin-top: 5%;
 
     a {
         text-decoration: none;
     }
 
+    .article__uno {
+        margin-bottom: 5%;
+    }
+
     .article__dos {
-        width: 80%;
-        
-        background: yellow;
-        margin: auto;
+        background-image: url(../imagenes/bebe.jpg);
+        background-size: cover;
+        height: 40vh;
+    }
+
+    .article__tres {
+        margin-bottom: 5%;
     }
 
     .article__cuatro {
-        width: 80%;
-       
-        background: orange;
-        margin: auto;
+        background-image: url(../imagenes/nenesonriendo.png);
+        background-size: cover;
+        height: 40vh;
     }
+
+    #map {
+        height: 20vh; 
+        width: 20vh;
+      }
 }

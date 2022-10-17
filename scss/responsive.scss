@@ -20,6 +20,28 @@
         margin: 5px;
         padding: 0 10px 0 10px;
     }
-                       
-} 
-  
+
+    .article {
+        display: grid;
+        grid-template-areas: "uno tres"
+            "dos cuatro";
+
+        .article__uno {
+            grid-area: uno;
+        }
+
+        .article__dos {
+            grid-area: dos;
+        }
+
+        .article__tres {
+            grid-area: tres;
+        }
+
+        .article__cuatro {
+            grid-area: cuatro;
+        }
+
+    }
+
+}

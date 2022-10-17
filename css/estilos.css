@@ -50,7 +50,7 @@
     padding: 0 10px 0 10px; } }
 
 .main {
-  background-image: url(/imagenes/bebe.jpg);
+  background-image: url(../imagenes/bebe.jpg);
   background-size: cover;
   padding-top: 10%;
   text-align: center; }
@@ -99,22 +99,44 @@
   .menu__item {
     border: none;
     margin: 5px;
-    padding: 0 10px 0 10px; } }
+    padding: 0 10px 0 10px; }
+  .article {
+    display: grid;
+    grid-template-areas: "uno tres" "dos cuatro"; }
+    .article .article__uno {
+      grid-area: uno; }
+    .article .article__dos {
+      grid-area: dos; }
+    .article .article__tres {
+      grid-area: tres; }
+    .article .article__cuatro {
+      grid-area: cuatro; } }
 
 .article {
-  background: red;
   font-size: 30px;
-  text-align: center; }
+  text-align: center;
+  margin-top: 5%; }
   .article a {
     text-decoration: none; }
+  .article .article__uno {
+    margin-bottom: 5%; }
   .article .article__dos {
-    width: 80%;
-    background: yellow;
-    margin: auto; }
+    background-image: url(../imagenes/bebe.jpg);
+    background-size: cover;
+    height: 40vh; }
+  .article .article__tres {
+    margin-bottom: 5%; }
   .article .article__cuatro {
-    width: 80%;
-    background: orange;
-    margin: auto; }
+    background-image: url(../imagenes/nenesonriendo.png);
+    background-size: cover;
+    height: 40vh; }
+  .article #map {
+    height: 20vh;
+    width: 20vh; }
+
+#map {
+  height: 40vh;
+  width: 40vh; }
 
 * {
   margin: 0;
