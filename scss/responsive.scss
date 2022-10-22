@@ -32,6 +32,7 @@
 
         .article__dos {
             grid-area: dos;
+            margin-right: 2.5%;
         }
 
         .article__tres {
@@ -40,8 +41,14 @@
 
         .article__cuatro {
             grid-area: cuatro;
+            margin: 0;
+            margin-left: 2.5%;
         }
 
+    }
+
+    .footer #map {
+        border-radius: 100%;
     }
 
 }

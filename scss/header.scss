@@ -18,11 +18,13 @@ $colorcuatro: #FFD372;
         background: $colortres;
         color: white;
         margin: 2px;
-        border-radius: 20%;
+        padding: 0 2% 0 2%;
+        border-radius: 1.36em;
     }
 }
 
 .menu {
+    z-index: 1;
     margin-left: -100%;
     background: $colortres;
     width: 100%;
@@ -40,33 +42,17 @@ $colorcuatro: #FFD372;
 .menu__item a {
     color: white;
     text-decoration: none;
-    font-family: 'Alkalami', serif;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+a:hover {
+    opacity: 0.7;
 }
 
 .mostrar {
     margin-left: 0;
 }
 
-@media(min-width:991px) {
-    body {
-        margin: 0 10% 0 10%;
-    }
-
-    .span {
-        display: none;
-    }
-
-    .menu {
-        width: 100%;
-        margin-left: 0;
-        display: flex;
-        justify-content: center;
-        position: relative;
-    }
-
-    .menu__item {
-        border: none;
-        margin: 5px;
-        padding: 0 10px 0 10px;
-    }
-}

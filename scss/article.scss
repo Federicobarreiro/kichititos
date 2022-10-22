@@ -1,3 +1,8 @@
+$coloruno: #905E96;
+$colordos: #D58BDD;
+$colortres: #FF99D7;
+$colorcuatro: #FFD372;
+
 .article {
     font-size: 30px;
     text-align: center;
@@ -5,6 +10,11 @@
 
     a {
         text-decoration: none;
+        color: $colorcuatro;
+        font-style: oblique;
+        font-variant: small-caps;
+        font-weight: bold;
+        font-size: x-large;
     }
 
     .article__uno {
@@ -12,7 +22,7 @@
     }
 
     .article__dos {
-        background-image: url(../imagenes/bebe.jpg);
+        background-image: url(../imagenes/nene.jpg);
         background-size: cover;
         height: 40vh;
     }
@@ -22,13 +32,8 @@
     }
 
     .article__cuatro {
-        background-image: url(../imagenes/nenesonriendo.png);
+        background-image: url(../imagenes/nena.jpg);
         background-size: cover;
         height: 40vh;
     }
-
-    #map {
-        height: 20vh; 
-        width: 20vh;
-      }
 }

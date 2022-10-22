@@ -1,0 +1,41 @@
+$coloruno: #905E96;
+$colordos: #D58BDD;
+$colortres: #FF99D7;
+$colorcuatro: #FFD372;
+
+.footer {
+  background: $colorcuatro;
+  text-align: center;
+  margin-top: 5%;
+  display: flex;
+
+  .footer__uno {
+    margin: auto;
+    width: 50%;
+
+    i {
+      margin: 5%;
+      color: whitesmoke;
+    }
+
+    h6 {
+        color: $coloruno;
+        font-style: oblique;
+        font-variant: small-caps;
+        font-weight: bold;
+        font-size: large;
+    }
+  }
+
+  .footer__dos {
+    width: 50%;
+
+    #map {
+      margin: auto;
+      height: 20vh;
+      width: 20vh;
+      border-radius: 100%;
+      border: 2px solid whitesmoke;
+    }
+  }
+}

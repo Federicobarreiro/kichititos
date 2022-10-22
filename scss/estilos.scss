@@ -3,7 +3,12 @@
 @import "aside";
 @import "responsive";
 @import "article";
-@import "map";
+@import "footer";
+
+$coloruno: #905E96;
+$colordos: #D58BDD;
+$colortres: #FF99D7;
+$colorcuatro: #FFD372;
 
 * {
     margin: 0;
