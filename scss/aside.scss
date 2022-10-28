@@ -4,18 +4,20 @@ $colortres: #FF99D7;
 $colorcuatro: #FFD372;
 
 .aside {
-    margin-top: 5%;
-    gap: 50px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background: $coloruno;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding: 0 5px 0 5px;
 
     div {
         height: 50px;  
     }
 
     a {
-        color: grey;
+        color: white;
         text-decoration: none;
         font-style: oblique;
         font-variant: small-caps;
@@ -26,7 +28,6 @@ $colorcuatro: #FFD372;
     a:hover {
         opacity: 30%;
     }
-
 
 }
 

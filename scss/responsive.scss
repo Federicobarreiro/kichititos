@@ -21,6 +21,11 @@
         padding: 0 10px 0 10px;
     }
 
+    .main {
+        background-image: url(../imagenes/bebe.jpg);
+        padding: 10%;
+    }
+
     .article {
         display: grid;
         grid-template-areas: "uno tres"

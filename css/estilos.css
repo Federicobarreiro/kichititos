@@ -8,10 +8,17 @@
     padding: 10px; }
   .header button {
     background: #FF99D7;
-    color: white;
     margin: 2px;
     padding: 0 2% 0 2%;
     border-radius: 1.36em; }
+    .header button a {
+      font-size: 20px;
+      font-style: oblique;
+      font-variant: small-caps;
+      font-weight: bold;
+      font-size: large;
+      color: white;
+      text-decoration: none; }
 
 .menu {
   z-index: 1;
@@ -19,7 +26,8 @@
   background: #FF99D7;
   width: 100%;
   position: absolute;
-  transition: 0.3s; }
+  transition: 0.3s;
+  border-top: 1px solid white; }
 
 .menu__item {
   padding: 10px 0 10px 0;
@@ -42,9 +50,8 @@ a:hover {
   margin-left: 0; }
 
 .main {
-  background-image: url(../imagenes/bebe.jpg);
+  background-image: url(../imagenes/bebe-nieve.jpg);
   background-size: cover;
-  padding-top: 10%;
   text-align: center; }
   .main h2 {
     color: white;
@@ -60,19 +67,20 @@ a:hover {
     font-weight: 60px;
     font-family: 'Alkalami', serif;
     line-height: 20px;
-    font-weight: 60px;
     padding-top: 5%; }
 
 .aside {
-  margin-top: 5%;
-  gap: 50px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  background: #905E96;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  padding: 0 5px 0 5px; }
   .aside div {
     height: 50px; }
   .aside a {
-    color: grey;
+    color: white;
     text-decoration: none;
     font-style: oblique;
     font-variant: small-caps;
@@ -96,6 +104,9 @@ a:hover {
     border: none;
     margin: 5px;
     padding: 0 10px 0 10px; }
+  .main {
+    background-image: url(../imagenes/bebe.jpg);
+    padding: 10%; }
   .article {
     display: grid;
     grid-template-areas: "uno tres" "dos cuatro"; }
@@ -115,27 +126,30 @@ a:hover {
 
 .article {
   font-size: 30px;
-  text-align: center;
-  margin-top: 5%; }
+  text-align: center; }
   .article a {
+    color: white;
     text-decoration: none;
-    color: #FFD372;
     font-style: oblique;
     font-variant: small-caps;
     font-weight: bold;
     font-size: x-large; }
+  .article a:hover {
+    opacity: 30%; }
   .article .article__uno {
-    margin-bottom: 5%; }
+    background: #FF99D7;
+    border-bottom: 1px solid white; }
   .article .article__dos {
+    height: 40vh;
     background-image: url(../imagenes/nene.jpg);
-    background-size: cover;
-    height: 40vh; }
+    background-size: cover; }
   .article .article__tres {
-    margin-bottom: 5%; }
+    background: #FF99D7;
+    border-bottom: 1px solid white; }
   .article .article__cuatro {
+    height: 40vh;
     background-image: url(../imagenes/nena.jpg);
-    background-size: cover;
-    height: 40vh; }
+    background-size: cover; }
 
 .footer {
   background: #FFD372;
@@ -149,7 +163,7 @@ a:hover {
       margin: 5%;
       color: whitesmoke; }
     .footer .footer__uno h6 {
-      color: #905E96;
+      color: whitesmoke;
       font-style: oblique;
       font-variant: small-caps;
       font-weight: bold;
@@ -162,6 +176,18 @@ a:hover {
       width: 20vh;
       border-radius: 100%;
       border: 2px solid whitesmoke; }
+
+.nosotros__h2 {
+  color: #905E96;
+  text-align: center;
+  font-style: oblique;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: xx-large;
+  text-decoration: none; }
+
+.nosotros__p {
+  padding: 0 10% 0 10%; }
 
 * {
   margin: 0;

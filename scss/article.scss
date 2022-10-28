@@ -6,34 +6,39 @@ $colorcuatro: #FFD372;
 .article {
     font-size: 30px;
     text-align: center;
-    margin-top: 5%;
-
+    
     a {
+        color: white;
         text-decoration: none;
-        color: $colorcuatro;
         font-style: oblique;
         font-variant: small-caps;
         font-weight: bold;
         font-size: x-large;
     }
 
+    a:hover {
+        opacity: 30%;
+    }
+
     .article__uno {
-        margin-bottom: 5%;
+        background: $colortres;
+        border-bottom: 1px solid white;
     }
 
     .article__dos {
+        height: 40vh;
         background-image: url(../imagenes/nene.jpg);
         background-size: cover;
-        height: 40vh;
     }
 
     .article__tres {
-        margin-bottom: 5%;
+        background: $colortres;
+        border-bottom: 1px solid white;
     }
 
     .article__cuatro {
+        height: 40vh;
         background-image: url(../imagenes/nena.jpg);
         background-size: cover;
-        height: 40vh;
     }
 }
