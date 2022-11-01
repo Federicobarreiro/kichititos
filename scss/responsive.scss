@@ -26,6 +26,14 @@
         padding: 10%;
     }
 
+    .aside {
+        flex-direction: row;
+
+        div {
+            margin: 0;
+        }
+    }
+
     .article {
         display: grid;
         grid-template-areas: "uno tres"

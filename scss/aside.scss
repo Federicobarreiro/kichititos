@@ -5,29 +5,33 @@ $colorcuatro: #FFD372;
 
 .aside {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     background: $coloruno;
     border-bottom: 1px solid white;
     border-top: 1px solid white;
-    padding: 0 5px 0 5px;
-
-    div {
-        height: 50px;  
-    }
 
     a {
+        padding: 0 5% 0 5%;
+        border-radius: 1.36em;
+        border: 2px solid white;
         color: white;
         text-decoration: none;
         font-style: oblique;
         font-variant: small-caps;
         font-weight: bold;
         font-size: x-large;
+        margin: 15px;
     }
 
     a:hover {
         opacity: 30%;
     }
-
+    
+    div {
+        margin-bottom: 1%;
+    }
 }
 

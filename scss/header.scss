@@ -15,6 +15,7 @@ $colorcuatro: #FFD372;
     }
 
     button {
+        border: none;
         background: $colortres;
         margin: 2px;
         padding: 0 2% 0 2%;
@@ -42,9 +43,9 @@ $colorcuatro: #FFD372;
     border-top: 1px solid white;
 }
 
-.menu__item { 
-    padding: 10px 0 10px 0; 
-    border: 1px solid $coloruno; 
+.menu__item {
+    padding: 10px 0 10px 0;
+    border: 1px solid $coloruno;
     list-style: none;
     text-align: center;
 }
@@ -65,4 +66,3 @@ a:hover {
 .mostrar {
     margin-left: 0;
 }
-
