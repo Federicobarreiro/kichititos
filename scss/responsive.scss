@@ -13,6 +13,8 @@
         display: flex;
         justify-content: center;
         position: relative;
+        border-radius: 0;
+        border: 0;
     }
 
     .menu__item {
@@ -22,7 +24,7 @@
     }
 
     .main {
-        background-image: url(../imagenes/bebe.jpg);
+        background-image: url(../imagenes/bebe-durmiendo.jpeg);
         padding: 10%;
     }
 

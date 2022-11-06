@@ -37,15 +37,16 @@ $colorcuatro: #FFD372;
     z-index: 1;
     margin-left: -100%;
     background: $colortres;
-    width: 100%;
+    width: 90%;
+    border-radius: 0 5% 5% 0;
+    border: 1px solid $coloruno;
     position: absolute;
     transition: 0.3s;
-    border-top: 1px solid white;
 }
 
 .menu__item {
+    border-bottom: 1px solid $coloruno;
     padding: 10px 0 10px 0;
-    border: 1px solid $coloruno;
     list-style: none;
     text-align: center;
 }

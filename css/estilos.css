@@ -25,14 +25,15 @@
   z-index: 1;
   margin-left: -100%;
   background: #FF99D7;
-  width: 100%;
+  width: 90%;
+  border-radius: 0 5% 5% 0;
+  border: 1px solid #905E96;
   position: absolute;
-  transition: 0.3s;
-  border-top: 1px solid white; }
+  transition: 0.3s; }
 
 .menu__item {
+  border-bottom: 1px solid #905E96;
   padding: 10px 0 10px 0;
-  border: 1px solid #905E96;
   list-style: none;
   text-align: center; }
 
@@ -51,18 +52,18 @@ a:hover {
   margin-left: 0; }
 
 .main {
-  background-image: url(../imagenes/bebe-nieve.jpg);
+  background-image: url(../imagenes/bebe-durmiendo.jpeg);
   background-size: cover;
   text-align: center; }
   .main h2 {
-    color: white;
+    color: #5d5d5d;
     font-family: 'Alkalami', serif;
     font-size: 50px;
     line-height: 50px;
     font-weight: 60px;
     margin: 0 5% 0 5%; }
   .main p {
-    color: white;
+    color: #5d5d5d;
     margin: 0 5% 0 5%;
     font-weight: 60px;
     font-family: 'Alkalami', serif;
@@ -104,13 +105,15 @@ a:hover {
     margin-left: 0;
     display: flex;
     justify-content: center;
-    position: relative; }
+    position: relative;
+    border-radius: 0;
+    border: 0; }
   .menu__item {
     border: none;
     margin: 5px;
     padding: 0 10px 0 10px; }
   .main {
-    background-image: url(../imagenes/bebe.jpg);
+    background-image: url(../imagenes/bebe-durmiendo.jpeg);
     padding: 10%; }
   .aside {
     flex-direction: row; }
@@ -168,7 +171,7 @@ a:hover {
 .footer {
   background: #FFD372;
   text-align: center;
-  margin-top: 5%;
+  margin-top: auto;
   display: flex; }
   .footer .footer__uno {
     margin: auto;
@@ -207,3 +210,11 @@ a:hover {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+html {
+  height: 100%; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%; }
